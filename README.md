@@ -107,7 +107,6 @@ This template project provides the following by default:
 * DNSMasq w/ .dev resolver for localhost
 * NVM
 * RBenv
-* Full Disk Encryption requirement
 * NodeJS 0.4
 * NodeJS 0.6
 * NodeJS 0.8
@@ -117,6 +116,9 @@ This template project provides the following by default:
 * Ack
 * Findutils
 * GNU-Tar
+
+## What You Don't Get
+* Full Disk Encryption requirement
 
 ## Customizing
 
