@@ -57,9 +57,10 @@ node default {
   include nvm
 
   # fail if FDE is not enabled
-  if $::root_encrypted == 'no' {
-    fail('Please enable full disk encryption and try again')
-  }
+#  if $::root_encrypted == 'no' {
+#    fail('Please enable full disk encryption and try again')
+#     notify{"Warning Full Disk Encryption Check has been disabled"}
+#  }
 
   # node versions
   include nodejs::0-4
